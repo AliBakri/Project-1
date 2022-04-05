@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<meta name="author" content="Albakri" />
+		<meta name="description" content="Albakri Hotel" />
+		<meta name="keywords" content="Albakri, Hotel" />
+		<link rel="shortcut icon" href="favicon.ico" />
+
+		<!-- FONT AWESOME -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+			integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- MODULAR CSS -->
+		<link rel="stylesheet" href="css/ali.css" />
+		<!-- CUSTOM STYLE -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css" />
+
+		<!--  INTERNAL STYLE  -->
+		<style>
+			#header .form {
+				top: 50%;
+			}
+		</style>
+
+		<title>Albakri Hotel - About</title>
+	</head>
+
+	<body>
+		<!--=============HEADER==========-->
+		<header id="header">
+			<!-- NAVIGATION BAR -->
+			<nav id="main-nav">
+				<div class="container">
+					<!-- BRAND/LOGO-->
+					<a id="logo" href="index.html" title="">Albakri</a>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li class="current"><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div class="form">
+				<h1>An <span class="text-primary">Unforgettable</span> Summer</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae cumque distinctio dolore nemo quam quasi rerum similique tempore totam ullam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, eligendi laboriosam. Repellendus
+					officia harum eaque.
+				</p>
+			</div>
+		</header>
+
+		<!--=============MAIN==========-->
+		<!--CONTACT US-->
+		<section class="clearfix" id="contact-us">
+			<h1 class="display-1 ml-4 py-2"><span class="text-primary">Contact</span> Us</h1>
+			<!-- <div class="container"> -->
+			<form class="p-4" id="form" action="">
+				<p>Please fill out the form below to contact us</p>
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" id="name" />
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" id="email" />
+				</div>
+				<div class="form-group">
+					<label for="message">Message</label>
+					<textarea name="" id="message" rows="10"></textarea>
+				</div>
+				<button class="btn2 hover-3 bg-dark">Submit</button>
+			</form>
+			<div class="map p-3">
+				<article id="map"></article>
+			</div>
+
+			<!-- ./MAP -->
+			<!-- </div> -->
+		</section>
+
+		<section id="contact-info" class="bg-dark py-3 text-white">
+			<div class="container">
+				<aside class="float-3 float-hover">
+					<i class="fas fa-hotel fa-3x pb-2"></i>
+					<h2>Location</h2>
+					<p>50 Main st, Boston MA</p>
+				</aside>
+				<aside class="float-3 float-hover">
+					<i class="fas fa-phone fa-3x pb-2"></i>
+					<h2>Phone Number</h2>
+					<p>(617) 555-5555</p>
+				</aside>
+				<aside class="float-3 float-hover">
+					<i class="fas fa-envelope fa-3x pb-2"></i>
+					<h2>Email Address</h2>
+					<p>frontdesk@albakri-hotel.co</p>
+				</aside>
+			</div>
+		</section>
+
+		<!--=============FOOTER==========-->
+		<footer id="footer" class="text-center">
+			<h3 class="float-3">
+				<a href="#" class="logo">
+					<span class="text-primary">
+						<i class="fa-brands fa-pied-piper-square"></i>
+					</span>
+					<span class="text-info"> Albakri</span>
+				</a>
+			</h3>
+
+			<p class="float-3">
+				Ali &copy; 2019 -
+				<script>
+					document.write(new Date().getFullYear());
+				</script>
+				, All Rights Reserved
+			</p>
+			<div class="float-3">
+				<a href="#" class="fa-brands fa-facebook text-light"></a>
+				<a href="#" class="fa-brands fa-twitter text-light"></a>
+				<a href="#" class="fa-brands fa-google text-light"></a>
+				<a href="#" class="fa-brands fa-linkedin text-light"></a>
+				<a href="#" class="fa-brands fa-youtube text-light"></a>
+			</div>
+		</footer>
+
+		<script src="js/main.js"></script>
+		<!-- Google Maps -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbLOYURFf4V1m7IGrFFTdWgTOccmv_3y4&callback=initMap&libraries=&v=weekly" async></script>
+	</body>
+</html>

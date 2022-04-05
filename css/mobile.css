@@ -1,0 +1,56 @@
+#showcase  h1 {font-size: 40px; margin-top: -10rem;}
+#main-nav #logo {
+    float: none;
+    text-align: center;
+    display: block;
+    padding-bottom: 1rem;
+}
+
+#main-nav ul {float: none;}
+
+#main-nav ul li {float: none; text-align: center}
+#main-nav ul li a {padding: 5px;}
+header #showcase {padding-top: 7rem}
+/* INFO SECTION
+============================*/
+#history {height: 400px;overflow:hidden}
+
+#history-img,#history-content {float: none;width: 100%;min-height: 100%}
+#history-img {display: none}
+#history-content {min-height: 100%;text-align:center;color: #fff;padding: 50px 30px;overflow: hidden;}
+
+
+.float-3{
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+#header .form input, #header .form select{
+    padding:10px;
+    margin: 5px;
+    width:100%;
+    display: block;
+    border: 1px solid #ddd;
+}
+#header #showcase { top:40% }
+#showcase  p { display: none}
+
+#header .form{top: 85%;}
+
+
+/*CONTACT US - FORM
+============================*/
+/* #contact-us{ padding-top: 20px; height: auto} */
+
+#contact-us #form{float: none; width: 100%;} 
+#contact-us .map{ float: none; width: 100%;border-top: 1px solid #ddd;}
+#contact-us #map {height:400px;}
+#contact-us h1 { text-align: center; margin: 1rem 0 0 0; padding-bottom: 0;}
+
+/*INDEX & CONTACT US - HEADER
+============================*/
+/*INDEX -> HEADER - > FORM*/
+#header form.form{top: 75%; width: 90%;}
+/*CONTACT -> HEADER - > HERO*/
+#header div.form{top: 68%; width: 90%;}
