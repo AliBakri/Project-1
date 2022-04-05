@@ -7,8 +7,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Everthing Tech](https://user-images.githubusercontent.com/42435299/161439443-385fe3fc-3b9e-4dbd-a38d-30f144939923.png)
-
+![Hotel](https://user-images.githubusercontent.com/42435299/161773049-acfd34b6-3b2b-4aa7-a79c-31578f33b954.png)
 
 
 
