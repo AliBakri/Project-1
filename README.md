@@ -19,6 +19,6 @@
 * [JavaScript](https://google.com/)
 
 ### Demo:
-[EverythingTech](https://gcodiac.github.io/hotel/)
+[EverythingTech](https://gcodiac.github.io/Hote-Template/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
